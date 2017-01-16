@@ -19,7 +19,7 @@ docker pull biglioncoding/gui-keepass2
 # First Run (Building the Container):
 1. mkdir your_config_directory: https://github.com/biglioncoding/gui-keepass2/tree/master/config  
 2. create a IP file: https://github.com/biglioncoding/gui-keepass2/blob/master/config/IP
-2. init.sh your_config_directory database_dir: https://github.com/biglioncoding/gui-keepass2/blob/master/init.sh
+3. init.sh your_config_directory database_dir: https://github.com/biglioncoding/gui-keepass2/blob/master/init.sh
 
 For example:
 docker pull biglioncoding/gui-keepass2
@@ -27,6 +27,15 @@ mkdir /home/dude/keepass
 mkdir /home/dude/keepass.data
 echo 192.168.0.1 > /home/dude/keepass/IP
 init.sh /home/dude/keepass /home/dude/keepass.data
+
+** You can put your existing database file in database_dir
+** DO NOT set IP address other than your localhost, otherwise, face the risk of interception
+
+# Run
+
+Simply:
+
+docker start KeePass2
 
 # Note:
 1. Of course, you must have a running X Windows and xhost + 
