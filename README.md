@@ -28,9 +28,6 @@ mkdir /home/dude/keepass.data
 echo 192.168.0.1 > /home/dude/keepass/IP
 init.sh /home/dude/keepass /home/dude/keepass.data
 
-** You can put your existing database file in database_dir
-** DO NOT set IP address other than your localhost, otherwise, face the risk of interception
-
 # Run
 
 Simply:
@@ -38,5 +35,7 @@ Simply:
 docker start KeePass2
 
 # Note:
+1. You can put your existing database file in database_dir, in the above example, /home/dude/keepass.data
 1. Of course, you must have a running X Windows and xhost + 
-2. Contributors are welcome
+2. ** DO NOT set IP address other than your localhost, otherwise, face the risk of interception **
+3. Contributors are welcome
