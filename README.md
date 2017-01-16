@@ -10,5 +10,6 @@ To run:
 2. init.sh your_config_dir database_file
 
 Note:
-1. the config diretory must contain a file IP setting out the ip address of yoru local machine
-2. remember to xhost + [arg] when run
+
+1. the config directory must contain a file calling "IP" setting out the ip address of your local machine
+2. remember to xhost + [arg] before run
