@@ -10,7 +10,7 @@ KeePass is a free open source password manager, which helps you to manage your p
 KeePass Original Home Page: http://keepass.info/index.html
 
 # Build
-1. Base on official Ubuntu Docker
+Base on official Ubuntu Docker
 
 # To get:
 docker pull biglioncoding/gui-keepass2
@@ -36,6 +36,6 @@ docker start KeePass2
 
 # Note:
 1. You can put your existing database file in database_dir, in the above example, /home/dude/keepass.data
-1. Of course, you must have a running X Windows and xhost + 
-2. ** DO NOT set IP address other than your localhost, otherwise, face the risk of interception **
-3. Contributors are welcome
+2. Of course, you must have a running X Windows and xhost + 
+3. ** DO NOT set IP address other than your localhost, otherwise, face the risk of interception **
+4. Contributors are welcome
