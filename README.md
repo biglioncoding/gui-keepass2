@@ -30,5 +30,3 @@ init.sh /home/dude/keepass /home/dude/db.kdbx
 # Note:
 1. Of course, you must have a running X Windows and xhost + 
 2. Contributors are welcome
-
-# Source: https://github.com/biglioncoding/gui-keepass2
